@@ -1,0 +1,46 @@
+* {
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* NAVBAR */
+.navbar {
+    border: 1px solid black;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(0,0,0);
+  }
+
+  ul li {
+      text-align: center;
+      /* line-height: 0.2px; */
+  }
+
+  a.nav-link {
+      border-top: 1px solid black;
+  }
+
+  a.nav-link:hover {
+    color: #ff;
+}
+/* END NAVBAR */
+
+/* HEADER */
+h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+/* END HEADER */
+
+/* CONTAINER */
+.container h2 {
+    font-size: 1.7rem;
+}
+/* END CONTAINER */
